@@ -1,5 +1,6 @@
-# LLaVA and BLIP inference only. Use MiniGPT-4's environment.yml separately.
+# LLaVA/BLIP inference and dataset utilities. Use MiniGPT-4's environment.yml separately.
 torch>=2.1
+torchvision>=0.16
 transformers>=4.45,<5
 accelerate>=0.26
 Pillow>=9
